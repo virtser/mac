@@ -1,0 +1,20 @@
+[user]
+	email = <email@domain.com>
+	name = <Full Name>
+[core]
+	editor = nano
+[diff]
+	external = ~/git-meld.sh
+[merge]
+  tool = mymeld
+  conflictstyle = diff3
+[mergetool "mymeld"]
+  cmd = meld --diff $BASE $LOCAL --diff $BASE $REMOTE --diff $LOCAL $BASE $REMOTE $MERGED
+[push]
+	default = simple
+[alias]
+  a = add
+  b = branch
+  c = commit
+  co = checkout
+  s = status
