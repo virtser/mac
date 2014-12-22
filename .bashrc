@@ -15,3 +15,6 @@ alias s='http-server -o -cors'
 alias pa='prodaccess -g'
 
 ...
+
+# Tracks your most used directories, based on frequency. https://github.com/rupa/z/
+. ~/z.sh
