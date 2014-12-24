@@ -1,4 +1,4 @@
-My Ubuntu system helpers settings
+My Ubuntu system helpers and dot files
 ======
 
 Inspired by:
