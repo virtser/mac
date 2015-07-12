@@ -13,8 +13,18 @@
 [push]
 	default = simple
 [alias]
-  a = add
+  a = add .
   b = branch
-  c = commit
+  c = commit -m
+  d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
+  ca = git add -A && git commit -av
   co = checkout
+  l = log --pretty=medium --graph --abbrev-commit
   s = status
+  pl = pull
+  ps = push
+  tags = tag -l
+  branches = branch -a
+  remotes = remote -v
+  integrate = !"git merge $1 && git push && git branch -d $1 && git push origin :$1"
+  release = !"git checkout master && git merge develop && git push && git tag -a $1 -m $2 && git push origin $1"
