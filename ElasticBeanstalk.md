@@ -8,6 +8,9 @@ App is in: /var/app/current
 Logs are in: /var/logs
 
 Used docker with sudo:
-```sudo docker images
+
+```
+sudo docker images
 sudo docker ps
-sudo docker exec -i -t 665b4a1e17b6 /bin/bash```
+sudo docker exec -i -t 665b4a1e17b6 /bin/bash
+```
