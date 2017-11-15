@@ -1,4 +1,4 @@
-...
+export PATH=$PATH:/usr/local/bin
 
 # Show git branch name in prompt
 source ~/.git-prompt.sh
