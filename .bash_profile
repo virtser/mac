@@ -1,7 +1,6 @@
 ...
 
 # Show git branch name in prompt
-# Show git branch name in prompt
 source ~/.git-prompt.sh
 PS1="\[\033[01;34m\]\w\[\033[31m\]\$(__git_ps1)\[\033[00m\]\$ "
 
@@ -29,8 +28,3 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 alias prune="docker system prune"
-
-...
-
-# Tracks your most used directories, based on frequency. https://github.com/rupa/z/
-. ~/z.sh
