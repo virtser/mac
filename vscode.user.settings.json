@@ -1,0 +1,44 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "terminal.integrated.shellArgs.osx": ["-l"],
+    "files.autoSave": "onFocusChange",
+    "editor.lineHeight": 15,
+    "editor.tabSize": 2,
+    "search.exclude": {
+        "**/*.log": true,
+        "**/*.orig": true,
+        "**/yarn.lock": true,
+        "**/node_modules": true,
+        "**/.nyc_output": true,
+        "**/test/coverage": true
+    },
+    "files.exclude": {
+        "**/.nyc_output": true,
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/.vscode": true,
+        "**/tmp": true,
+        "**/vendor": true,
+        "**/node_modules": true,
+        "**/reports": true,
+        "**/public/build": true,
+        "**/test/coverage": true
+    },
+    "git.confirmSync": false,
+    "vsicons.projectDetection.disableDetect": true,
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "seti",
+    "window.zoomLevel": 0,
+    "files.insertFinalNewline": true,
+    "stylelint.enable": true,
+    "css.validate": false,
+    "editor.renderWhitespace": "none",
+    "editor.trimAutoWhitespace": true,
+    "files.trimTrailingWhitespace": true,
+    "git.enableSmartCommit": true,
+    "workbench.activityBar.visible": true,
+    "editor.autoIndent": true,
+    "editor.minimap.enabled": false,
+    "vsicons.presets.hideFolders": true
+}
